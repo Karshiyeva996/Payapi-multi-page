@@ -1,0 +1,469 @@
+@import url(./fonts.css);
+
+/* Castom props */
+:root {
+  --Prymry-color: #ba4270;
+  --Link-Water-White: #fbfcfe;
+  --Juan-blue: #36536b;
+  --Mirage-blue: #1b262f;
+  --prymry-hover: #da6d97;
+  --prymry-active: #ba4270;
+  --light-juan-blue: #6c8294;
+  --Public-Sans: "Public Sans";
+  --DM-Serif-Display: "DM Serif Display";
+  --bg-body: #edf3f8;
+}
+
+/*GLOBAL STIL*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1158px;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+
+.all-btn {
+  display: block;
+  background-color: var(--prymry-active);
+  padding: 15px 26px;
+  color: var(--Link-Water-White) !important;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+  border-radius: 24px;
+  text-align: center;
+  width: max-content;
+  font-family: "Public Sans";
+  transition: .5s;
+  border-radius: 24px;
+  letter-spacing: -0.115px;
+
+
+}
+
+.all-btn:hover {
+  background-color: var(--prymry-hover);
+  cursor: pointer;
+}
+
+body {
+  background-color: #EDF3F8;
+  ;
+}
+
+
+/*SITE HEADER*/
+.navbar-brand {
+  margin-right: 40px;
+}
+
+.navbar-nav {
+  display: flex;
+  column-gap: 40px !important;
+}
+
+.nav-link {
+  color: #36536B !important;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 700;
+  opacity: 0.7;
+
+}
+
+
+
+
+.nav-link:hover {
+  color: #36536B !important;
+  cursor: pointer;
+}
+
+
+/*SITE HERO */
+
+
+
+.site-hero__title {
+  color: #36536B;
+  font-family: "DM Serif Display";
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.554px;
+  margin-top: 152px;
+  margin-bottom: 21px;
+
+}
+
+.form-control {
+  border-radius: 24px;
+  background: #FBFCFE;
+  box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+
+}
+
+.site-hero__text {
+  margin-top: 16px;
+  color: #6C8294;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.hero-span {
+  color: #6C8294;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration-line: underline;
+}
+
+.site-header-hero {
+  position: relative;
+}
+
+.site-header-hero::after {
+  content: url(../img/shared/desktop/bg-pattern-circle.svg);
+  position: absolute;
+  top: -172px;
+  right: -140px;
+  z-index: -1;
+}
+
+.site-hero__image {
+
+  margin-left: 180px;
+}
+
+
+
+/* SITE-MAIN  partner */
+
+.partner {
+  background-color: #1B262F;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.partner__title {
+  color: #FBFCFE;
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.369px;
+}
+
+.partner__desc {
+  width: 445px;
+  color: #FBFCFE;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.partner__btn {
+  padding: 16px 32px;
+  border-radius: 24px;
+  border: 1px solid #FBFCFE;
+  color: #FBFCFE;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.115px;
+}
+
+.partner__image {
+  color: white !important;
+
+
+}
+
+/*HOW-USE*/
+
+.how-use {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.how-use__title {
+  color: #36536B;
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.369px;
+}
+
+.how-use__desc {
+  width: 445px;
+  color: #6C8294;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  justify-content: center;
+}
+
+/*SERVISE*/
+
+.service__title {
+  color: #36536B;
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.369px;
+}
+
+.service__desc {
+  width: 445px;
+  color: #6C8294;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/*balans*/
+
+.balans-image {
+  display: block;
+  max-width: 106px;
+  width: 100%;
+  height: 106px;
+  margin: auto;
+}
+
+.balans-title {
+  color: #36536B;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.138px;
+  margin-top: 32px;
+  margin-bottom: 16px;
+}
+
+.balans-desc {
+  width: 350px;
+  color: #6C8294;
+  text-align: center;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.115px;
+}
+
+.ready {
+  color: #36536B;
+  font-family: "DM Serif Display";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.369px;
+}
+
+/*SITE FOOTER*/
+
+.site-footer {
+  margin-top: 96px;
+  background-color: #1B262F;
+
+}
+
+.social {
+  text-align: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 38px;
+  padding-bottom: 38px;
+}
+
+.social-list {
+  display: flex;
+  column-gap: 16px;
+  justify-content: flex-end;
+}
+
+
+.social-link {
+  color: var(--Link-Water-White);
+  transition: .4;
+}
+
+.social-link:hover {
+  color: var(--prymry-hover);
+  cursor: pointer;
+}
+
+.nav {
+  color: #FBFCFE !important;
+}
+
+.nav:hover {
+  cursor: pointer;
+  color: #FFF !important;
+  opacity: unset;
+}
+
+
+
+/*PRISING HTML*/
+
+.hero-pricing__title {
+  color: #36536B;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.431px;
+  margin-bottom: 72px;
+}
+
+.pricing__plan {
+  color: #BA4270;
+  font-family: "DM Serif Display";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.246px;
+}
+
+.pricing__desc {
+  width: 350px;
+  color: #6C8294;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.pricing__num {
+  color: #36536B;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.431px;
+}
+
+.pricing__item {
+  color: #36536B;
+  font-family: "Public Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.pricing__btn {
+  display: block;
+  padding: 16px 28px;
+  color: #36536B !important;
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: capitalize;
+  border: 1px solid #36536B;
+  border-radius: 24px;
+  text-align: center;
+  width: max-content;
+  font-family: "Public Sans";
+  transition: .5s;
+  letter-spacing: -0.115px;
+  margin-top: 24px;
+
+}
+
+.pricing__btn:hover {
+  cursor: pointer;
+  background: #36536B;
+  color: #FBFCFE !important;
+}
+
+/*ABOUT.HTML*/
+.site-about__title {
+  width: 730px;
+  height: 189px;
+  color: #36536B;
+  font-family: "DM Serif Display";
+  font-size: 56px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.431px;
+  margin-top: 82px;
+  margin-bottom: 51px;
+}
+
+.about__our {
+  color: #36536B;
+  font-family: "DM Serif Display";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: -0.246px;
+}
+
+.about__desc {
+  width: 635px;
+  color: #6C8294;
+  font-family: "Public Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 56px;
+} 
+
+.about__image {
+  width: 100%;
+  background: url(<path-to-image>) lightgray 0px 0px / 100% 100% no-repeat;
+  margin-bottom: 72px;
+
+
+} 
+
+.about-team {
+  color: #36536B;
+font-family: "Public Sans";
+font-size: 16px;
+font-weight: 400;
+line-height: 28px;
+} 
+
+.about-num {
+  color: #BA4270;
+font-family: "DM Serif Display";
+font-size: 56px;
+font-weight: 400;
+line-height: 72px; 
+letter-spacing: -0.431px;
+}
